@@ -1,0 +1,697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0029)https://vto-cvpr24.github.io/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>ICCV 2025 Workshop: Findings</title>
+  
+  <link href="./default.css" rel="stylesheet" type="text/css">
+  <meta property="og:title" content="ICCV 2025 Workshop: Findings">
+  <meta property="og:url" content="https://vto-cvpr24.github.io/">
+  <meta property="og:image" content="https://vto-cvpr24.github.io/data/teaser.jpg">
+  <meta property="og:type" content="website">
+
+<body class="vsc-initialized">
+  <div id="header">
+    <div id="logo">
+      <h1>
+        <center>
+          <span style="font-size:50%;color:#777;font-weight:normal">The first ICCV 2025 Workshop </span><br> Findings
+        </center>
+      </h1><br>
+      <h2>
+        <center>
+          <span style="font-size:92%;color:#777;font-weight:normal">19th October, 2025, 1:30 PM to 6 PM @ ICCV 2025 in Honolulu, HI,
+            USA</span><br><br>
+          <span style="font-size:92%;color:#777;font-weight:normal">Venue: Honolulu Convention Center, Room TBD | Virtual: <a href="TBD"> link  </a></span>
+        </center>
+      </h2><br>
+    </div>
+
+    <div id="splash">
+      <center><img src="./Gemini_Generated_Image_f29isyf29isyf29i.png" alt="" width="880"></center>
+    </div>
+
+    <div id="content">
+<!-- <center>
+	<h2> This workshop is also streamed virtually on zoom. For access (requires registration), <a href="https://cvpr.thecvf.com/virtual/2024/workshop/23688">click here</a>. </h2>
+</center>   -->
+<h2>Overview</h2>
+      <p>
+        Help avoid resubmission cycles, where authors do little to revise papers that were technically sound, but where reviewers simply weren't excited enough about it.  This gives both authors and reviewers more time for new research.
+
+      </p>
+
+
+      <h2>Keynote Speakers</h2>
+      <center>
+
+        <p> To be announced soon.
+<!--
+            </p><p></p><table style="width:100%">
+          <tbody><tr>
+              <td>
+                <center><a href="https://www.cs.umd.edu/~lin/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/ming-lin.jpg" height="170"> </a>
+                </center>
+              </td>
+              <td>
+                <center><a href="https://www.irakemelmacher.com/home"><img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/ira-kemelmacher-shlizerman.jpg" height="170"> </a></center>
+              </td>
+              <td>
+                <center><a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html"><img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/gerard-pons-moll.png" height="170"> </a></center>
+              </td>
+
+              <td>
+                <center><a href="https://www.linkedin.com/in/sunil-h-0562211/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/sunil-hadap.jpg" height="170">
+                  </a></center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <h3> Ming Lin</h3>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <h3> Ira Kemelmacher-Schlizerman</h3>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <h3> Gerard Pons-Moll</h3>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <h3> Sunil Hadap </h3>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <font size="2">UMD &amp; Amazon</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">UW &amp; Google</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">University of Tübingen</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">Amazon</font>
+                </center>
+              </td>
+            </tr>
+            
+
+
+
+          
+        </tbody></table>
+      </center>
+      <br><br><br>
+    -->
+
+  <!-- 
+      <h2>Invited Short Talks</h2>
+      <p></p>
+      <center>
+        <table style="width:100%">
+          <tbody><tr class="row_type_expandable">
+            <td>
+              <center> <strong> Title </strong> </center>
+            </td>
+            <td>
+              <center> <strong> Presenter </strong> </center>
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>  M&amp;M VTO: Multi-Garment Virtual Try-On and Editing </center>
+            </td>
+            <td>
+              <center>  Luyang Zhu <br> <it> University of Washington </it> </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> We present M&amp;M VTO–a mix and match virtual try-on method that takes as input multiple garment
+                images, text description for garment layout and an image of a person. An example input includes: an image of a shirt, an
+                image of a pair of pants, "rolled sleeves, shirt tucked in", and an image of a person. The output is a visualization of
+                how those garments (in the desired layout) would look like on the given person. Key contributions of our method are: 1)
+                a single stage diffusion based model, with no super resolution cascading, that allows to mix and match multiple garments
+                at 1024x512 resolution preserving and warping intricate garment details, 2) architecture design (VTO UNet Diffusion
+                Transformer) to disentangle denoising from person specific features, allowing for a highly effective finetuning strategy
+                for identity preservation (6MB model per individual vs 4GB achieved with, e.g., dreambooth finetuning); solving a common
+                identity loss problem in current virtual try-on methods, 3) layout control for multiple garments via text inputs
+                specifically finetuned over PaLI-3 for virtual try-on task. Experimental results indicate that M&amp;M VTO achieves
+                state-of-the-art performance both qualitatively and quantitatively, as well as opens up new opportunities for virtual
+                try-on via language-guided and multi-garment try-on.
+              
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>  
+                Photorealistic virtual try-on from unconstrained designs 
+              </center>
+            </td>
+            <td>
+              <center>  Shuliang Ning &amp; Xiaoguang Han <br> <it> The Chinese University of Hong Kong </it></center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> In this talk, we'll introduce a novel approach, ucVTON, for photorealistic virtual try-on of personalized clothing on
+                human images. Unlike previous methods limited by input types, ours allows flexible style (text or image) and texture
+                (full garment, cropped sections, or patches) specifications. To tackle the challenge of full garment entanglement, we
+                use a two-stage pipeline to separate style and texture. We first generate a human parsing map for desired style and then
+                composite textures onto it based on input. Our method introduces hierarchical CLIP features and position encoding in
+                VTON for complex, non-stationary textures, setting a new standard in fashion editing.
+              
+            </td>
+          </tr>
+
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>  Mobile Fitting Room: On-device Virtual Try-on via Diffusion Models </center>
+            </td>
+            <td>
+              <center>  Pratham Mehta <br> <it> Georgia Institute of Technology </it></center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> The growing digital landscape of fashion e-commerce calls for interactive and user-friendly
+                interfaces for virtually trying on clothes. Traditional try-on methods grapple with challenges in adapting to diverse
+                backgrounds, poses, and subjects. While newer methods, utilizing the recent advances of diffusion models, have achieved
+                higher-quality image generation, the human-centered dimensions of mobile interface delivery and privacy concerns remain
+                largely unexplored. We present Mobile Fitting Room, the first on-device diffusion-based virtual try-on system. To
+                address multiple inter-related technical challenges such as high-quality garment placement and model compression for
+                mobile devices, we present a novel technical pipeline and an interface design that enables privacy preservation and user
+                customization. A usage scenario highlights how our tool can provide a seamless, interactive virtual try-on experience
+                for customers and provide a valuable service for fashion e-commerce businesses.
+              
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>  Real-time Video Virtual Try-on Frameworks on mobile devices and data challenges </center>
+            </td>
+            <td>
+              <center>  Ruowei (Irene) Jiang <br> <it> ModiFace </it> </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> With recent advances in content generation and rendering tasks using generative models, real-time video virtual try-on
+                remains challenging, especially on mobile devices and web browsers. We present our framework and a series of works that
+                bridge the gap between state-of-the-art neural networks and real-world challenges, constrained by device and data
+                limitations.
+
+
+              
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>     Makeup Prior Models for 3D Facial Makeup Estimation and Applications </center>
+            </td>
+            <td>
+              <center>     Xingchao Yang <br> <it> CyberAgent &amp; University of Tsukuba </it> </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> We introduce two types of makeup prior models—PCA-based and StyleGAN2-based—to enhance
+                existing 3D face prior models. These priors are pivotal in estimating 3D makeup patterns from single makeup face images.
+                Such patterns play a significant role in a broad spectrum of makeup-related applications, substantially enriching
+                virtual try-on technologies with more realistic and customizable experiences. Our contributions support crucial
+                functionalities, including 3D makeup face reconstruction, user-friendly makeup editing, makeup removal, makeup transfer,
+                and interpolation.
+
+
+              
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>     What limits the performance of makeup transfer? </center>
+            </td>
+            <td>
+              <center>     Dr. Zhaoyang Sun  <br> <it> Wuhan University of Technology      </it>        </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> Makeup transfer aims to realistically and naturally reproduce diverse makeup styles onto a
+                given face image. Due to the inherent unsupervised nature of makeup transfer, most previous approaches adopt the
+                pseudo-ground-truth-guided strategy for model training. In this talk, we first reveal that the quality of the pseudo
+                ground truth is the key factor limiting the performance of makeup transfer. Next, we propose a Content-Style Decoupled
+                Makeup Transfer (CSD-MT) method, which works in a purely unsupervised manner and thus eliminates the negative effects of
+                generating PGTs. Finally, extensive quantitative and qualitative analyses show the effectiveness of our CSD-MT method.
+
+
+              
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>     Generating Animatable Layered Assets from a Single Scan </center>
+            </td>
+            <td>
+              <center>     Taeksoo Kim &amp; Byungjun Kim <br> <it> Seoul National University </it> </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> We present a framework that takes as input a single-layer clothed 3D human mesh and decomposes
+                it into complete multi-layered 3D assets. The outputs can then be combined with other assets to create novel clothed
+                human avatars with any pose. We first separate the input mesh using the 3D surface segmentation extracted from
+                multi-view 2D segmentations. Then we synthesize the missing geometry of different layers in both posed and canonical
+                spaces using a novel pose-guided Score Distillation Sampling (SDS) loss. Once we complete inpainting high-fidelity 3D
+                geometry, we also apply the same SDS loss to its texture to obtain the complete appearance including the initially
+                occluded regions. Through a series of decomposition steps, we obtain multiple layers of 3D assets in a shared canonical
+                space normalized in terms of poses and human shapes, hence supporting effortless composition to novel identities and
+                reanimation with novel poses.
+
+              
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>     StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On </center>
+            </td>
+            <td>
+              <center>    Jeongho Kim <br> <it> Korea Advanced Institute of Science &amp; Technology </it> </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> Given a clothing image and a person image, an image-based virtual try-on aims to generate a
+                customized image that appears natural and accurately reflects the characteristics of the clothing image. In this
+                presentation, we introduce StableVITON, learning the semantic correspondence between the clothing and the human body
+                within the latent space of the pre-trained diffusion model in an end-to-end manner. Our proposed zero cross-attention
+                blocks not only preserve the clothing details by learning the semantic correspondence but also generate high-fidelity
+                images by utilizing the inherent knowledge of the pre-trained model in the warping process. Through our proposed novel
+                attention total variation loss and applying augmentation, we achieve the sharp attention map, resulting in a more
+                precise representation of clothing details. StableVITON shows state-of-the-art performance over existing virtual try-on
+                models in both qualitative and quantitative results. Moreover, through the evaluation of a trained model on multiple
+                datasets, StableVITON demonstrates its promising quality in a real-world setting.
+              
+            </td>
+          </tr>
+          <tr></tr>
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>     Integrating Learning-based Virtual Try-On in Fashion: Challenges and Advances
+              </center>
+            </td>
+            <td>
+              <center>
+                    Lena Hong &amp; Chaerin Kong <br> <it> NXN Labs </it>
+
+              </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> 
+                With the rising success of image foundation models in recent years, we are also witnessing exciting advances in the
+                world of VTO. However, there remains a large gap between theory and practice. In our conversations with customers, we
+                were able to uncover a number of challenges that are under-explored in academia, namely hyper-fidelity, visual
+                aesthetics and style diversity. We will share our early efforts in refining the technology into a commercial-grade
+                product and discuss the shortcomings of current evaluation benchmarks in accurately representing industrial needs.
+
+              
+            </td>
+          </tr>
+          <tr></tr>
+          <tr class="row_type_expandable" onclick="toggleRow(this)">
+            <td>
+              <center>     Diffuse to Choose: Enriching Image Conditioned Inpainting in Latent Diffusion Models for Virtual Try-All
+              </center>
+            </td>
+            <td>
+              <center>
+                Mehmet Saygin Seyfioglu <br> <it> University of Washington </it>
+
+              </center>
+            </td>
+            <td class="expanded-row-content">
+              
+                <strong>Abstract</strong> As online shopping is growing, the ability for buyers to virtually visualize products in their
+                settings—a phenomenon we define as "Virtual Try-All"—has become crucial. Recent diffusion models inherently contain a
+                world model, rendering them suitable for this task within an inpainting context. However, traditional image-conditioned
+                diffusion models often fail to capture the fine-grained details of products. In contrast, personalization-driven models
+                such as DreamPaint are good at preserving the item's details but they are not optimized for real-time applications. We
+                present "Diffuse to Choose," a novel diffusion-based image-conditioned inpainting model that efficiently balances fast
+                inference with the retention of high-fidelity details in a given reference item while ensuring accurate semantic
+                manipulations in the given scene content. Our approach is based on incorporating fine-grained features from the
+                reference image directly into the latent feature maps of the main diffusion model, alongside with a perceptual loss to
+                further preserve the reference item's details. We conduct extensive testing on both in-house and publicly available
+                datasets, and show that Diffuse to Choose is superior to existing zero-shot diffusion inpainting methods as well as
+                few-shot diffusion personalization algorithms like DreamPaint.
+              
+            </td>
+          </tr>
+          <tr>
+
+          </tr>
+
+        </tbody></table>
+
+      </center>
+      <br><br><br> -->
+
+
+      <div id="schedule_content">
+        <h2>Schedule</h2>
+        <div>
+      
+          <center>
+            <table style="width:100%" class="schedule">
+      
+              <tbody><tr>
+                <td>
+                  <center>  <strong> Time  </strong> </center>
+                </td>
+                <td>
+                  <center>  <strong> Session </strong> </center>
+                </td>
+                <td>
+                  <center> <strong> Presenter </strong> </center>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="other">
+                <td>
+                  <center>  1:30 - 1:40 &nbsp;&nbsp; </center>
+                </td>
+                <td>
+                  <center>  Opening Remarks </center>
+                </td>
+                <td>
+                  <center> Organizers </center>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="keynote">
+                <td>
+                  <center>  1:40 - 2:20  </center>
+                </td>
+                <td>
+                  <center>  <strong> Keynote </strong> Why do we need a Findings Track? </center>
+                </td>
+                <td>
+                  <center> Bryan Plummer </center>
+                </td>
+              </tr>
+              <tr></tr>
+
+              <!--
+              <tr class="keynote">
+                <td>
+                  <center>  2:20 - 3:00  </center>
+                </td>
+                <td>
+                  <center>  <strong> Keynote </strong> Science of Scalable VTO </center>
+                </td>
+                <td>
+                  <center> Sunil Hadap </center>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="other">
+                <td>
+                  <center>  3:00 - 3:30  </center>
+                </td>
+                <td>
+                  <center>  Break </center>
+                </td>
+                <td>
+                  <center>  </center>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="shorttalks">
+                <td>
+                  <center>  3:30 - 4:00  </center>
+                </td>
+                <td>
+                  <center>  <strong> Short Talks - Session 1 </strong> </center>
+                  <ul>
+                  <li> What limits the performance of makeup transfer? </li>
+                  <li>  M&amp;M VTO: Multi-Garment Virtual Try-On and Editing </li>
+                  <li>  Photorealistic virtual try-on from unconstrained designs</li>
+                  <li> Generating Animatable Layered Assets from a Single Scan </li>
+                  <li> Real-time Video Virtual Try-on Frameworks on mobile devices and data challenges</li>
+                </ul>
+                </td>
+                <td>
+                  <center>      <pre>   </pre>      </center>
+                  <ul>
+                    <li>Zhaoyang Sun </li>
+                    <li> Luyang Zhu</li>
+                    <li>Shuliang Ning &amp; Xiaoguang Han </li>
+                    <li>Taeksoo Kim &amp; Byungjun Kim </li>
+                    <li> Ruowei (Irene) Jiang </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="keynote">
+                <td>
+                  <center>  4:00 - 4:40  </center>
+                </td>
+                <td>
+                  <center> <strong>  Keynote </strong>  Physics-Inspired Fit-Aware Virtual Try-On  </center>
+                </td>
+                <td>
+                  <center> Ming Lin </center>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="shorttalks">
+                <td>
+                  <center>  4:40 - 5:10  </center>
+                </td>
+                <td>
+                  <center> <strong> Short Talks - Session 2 </strong></center>
+                  <ul>
+                    <li> Diffuse to Choose: Enriching Image Conditioned Inpainting in Latent Diffusion Models for Virtual Try-All 
+                    </li><li> Integrating Learning-based Virtual Try-On in Fashion: Challenges and Advances 
+                    </li><li> StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On
+                    </li><li> Makeup Prior Models for 3D Facial Makeup Estimation and Applications
+                    </li><li> Mobile Fitting Room: On-device Virtual Try-on via Diffusion Models
+                    </li>
+                  </ul>
+                </td>
+                <td>
+                  <center>                 </center>
+                    <ul>
+                      <li>Mehmet Saygin Seyfioglu </li>
+                      <li> Lena Hong &amp; Chaerin Kong</li>
+                      <li>Jeongho Kim </li>
+                      <li>Xingchao Yang </li>
+                      <li> Pratham Mehta</li>
+                    </ul>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="keynote">
+                <td>
+                  <center>  5:10 - 5:50  </center>
+                </td>
+                <td>
+                  <center class="keynote">  <strong>Keynote</strong> AI Fashion: The Power of Inspiration </center>
+                </td>
+                <td>
+                  <center> Ira Kemelmacher-Schlizerman </center>
+                </td>
+              </tr>
+              <tr></tr>
+      
+              <tr class="other">
+                <td>
+                  <center>  5:50 - 6:00  </center>
+                </td>
+                <td>
+                  <center>  Closing Remarks </center>
+                </td>
+                <td>
+                  <center> Organizers </center>
+                </td>
+              </tr>
+              <tr></tr> -->
+      
+              </tbody></table>
+      
+        </center></div><br><br>
+
+
+      <h2>Organizers</h2>
+      <p>
+        </p><center>
+          <table id="organizer" style="width:80%">
+            <tbody><!--<tr>
+              <td>
+                <center><a href="http://vid8687.github.io/"><img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/vidya-narayanan.jpg"></a>
+                </center>
+              </td>
+              <td>
+                <center><a href="https://www.linkedin.com/in/sunil-h-0562211/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/sunil-hadap.jpg"> </a>
+                </center>
+              </td>
+              <td>
+                <center><a href="https://ps.is.mpg.de/person/jromero"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/javier-romero.jpg"> </a>
+                </center>
+              </td>
+            </tr>-->
+            <tr>
+              <td>
+                <center>
+                  <h3>Bryan Plummer</h3>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <h3>Kevin Shi</h3>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <h3>Juan C. Caicedo</h3>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <font size="2">Boston University</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">NVIDIA</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">UW-Madison</font>
+                </center>
+              </td>
+            </tr>
+<!--
+            <tr>
+              <td>
+                <center><a href="https://katiemlewis.github.io/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/kathleen-lewis.jpg"> </a>
+                </center>
+              </td>
+              <td>
+                <center><a href="https://jhugestar.github.io/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/hanbyul-joo.jpg"> </a>
+                </center>
+              </td>
+              <td>
+                <center><a href="https://www.cs.ubc.ca/~sheffa/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/alla-sheffer.jpg"> </a>
+                </center>
+              </td>
+              <td>
+                <center><a href="https://www.cs.sfu.ca/~haoz/"> <img alt="" src="./CVPR 2024 Workshop_ Virtual Try-On_files/richard-zhang.png"> </a>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center>
+                  <h3>Katie Lewis</h3>
+                </center>
+              </td>
+
+              <td>
+                <center>
+                  <h3>Hanbyul Joo</h3>
+                </center>
+              </td>
+
+              <td>
+                <center>
+                  <h3>Alla Sheffer</h3>
+                </center>
+              </td>
+
+              <td>
+                <center>
+                  <h3>Hao (Richard) Zhang</h3>
+                </center>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <center>
+                  <font size="2">Runway</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">SNU</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">UBC/Amazon</font>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <font size="2">SFU/Amazon</font>
+                </center>
+              </td>
+            </tr> -->
+          </tbody></table>
+        </center>
+      <p></p>
+
+      <script>
+        const toggleRow = (element) => {
+          element.getElementsByClassName('expanded-row-content')[0].classList.toggle('hide-row');
+          console.log(event);
+        }
+      </script>
+
+
+
+      <h2>Contact Info</h2>
+      <br>
+      <p>E-mail: TBD</p>
+      <h2></h2>   
+          <p> Header image credits: Gemini 2.0: "Photorealistic image of machine vision system that is finding new scientific data out in the beaches of Honolulu in Hawaii."</p>
+          <p>Website based on https://vto-cvpr24.github.io/. </p>
+    </div>
+
+
+
+
+
+</div></div></body></html>
